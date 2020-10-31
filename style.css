@@ -1,22 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-*{
+body{
    background-color: black;
+   /* background-image: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700314818-1200x675.jpg"); */
+   background-size: cover;
+}
+
+h2{
+   text-align: center;
 }
 
 .greeting{
    margin-top: 30vh;
    margin-bottom: 15vh;
-   height: 250px;
-}
-
-.projects{
-   background-color: pink;
-}
-
-.contact{
-   background-color: blanchedalmond;
+   height: 200px;
 }
 
 .name{
@@ -46,3 +44,29 @@
    color: white;
    margin: 10px 5px;
 }
+
+.projects{
+   background-color: pink;
+   height: auto;
+   padding: 30px;
+}
+
+.project_cards{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+}
+
+.project_card{
+   color: white;
+   height: 400px;
+   width: 400px;
+   margin: 20px;
+   background-color: blue;
+}
+
+.contact{
+   background-color: blanchedalmond;
+   height: 25vh;
+}
+
