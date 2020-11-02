@@ -60,21 +60,38 @@ h2 {
 .project_card {
   color: black;
   border-radius: 10px;
-  height: 300px;
+  height: auto;
   width: 400px;
   margin: 20px;
+  padding-bottom: 10px;
   background-color: lightgray;
 }
 
 .project_title {
-  margin-top: 20%;
+  margin-top: 10%;
   font-family: "Poppins", sans-serif;
 }
 
 .project_description {
+  height: 50px;
   text-align: center;
   font-family: "Open Sans", sans-serif;
-  padding: 5px 30px;
+  padding: 0px 30px;
+}
+
+.project_languages {
+  text-align: center;
+  padding: 0px 30px;
+}
+
+svg {
+  width: 50px;
+  height: auto;
+}
+
+.iconify {
+  width: 50px;
+  height: auto;
 }
 
 .contact {
