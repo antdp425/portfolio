@@ -1,72 +1,83 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
-body{
-   background-color: black;
-   /* background-image: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700314818-1200x675.jpg"); */
-   background-size: cover;
+body {
+  background-color: black;
+  /* background-image: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700314818-1200x675.jpg"); */
+  background-size: cover;
 }
 
-h2{
-   text-align: center;
+h2 {
+  text-align: center;
 }
 
-.greeting{
-   margin-top: 30vh;
-   margin-bottom: 15vh;
-   height: 200px;
+.greeting {
+  margin-top: 30vh;
+  margin-bottom: 15vh;
+  height: 200px;
 }
 
-.name{
-   color: white;
-   font-size: 6vh;
-   font-family: "Poppins", sans-serif;
-   font-weight: 500;
-   text-align: center;
+.name {
+  color: white;
+  font-size: 6vh;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  text-align: center;
 }
 
-.intro{
-   color: white;
-   font-size: 3vh;
-   text-align: center;
-   font-family: "Open Sans", sans-serif;
-   font-weight: 400;
-   margin: 0px 30px;
+.intro {
+  color: white;
+  font-size: 3vh;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  margin: 0px 30px;
 }
 
-.links{
-   display: flex;
-   justify-content: center;
+.links {
+  display: flex;
+  justify-content: center;
 }
 
-.links a{
-   text-decoration: none;
-   color: white;
-   margin: 10px 5px;
+.links a {
+  text-decoration: none;
+  color: white;
+  margin: 10px 5px;
 }
 
-.projects{
-   background-color: pink;
-   height: auto;
-   padding: 30px;
+.projects {
+  background-color: grey;
+  height: auto;
+  padding: 30px;
 }
 
-.project_cards{
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-evenly;
+.project_cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-.project_card{
-   color: white;
-   height: 400px;
-   width: 400px;
-   margin: 20px;
-   background-color: blue;
+.project_card {
+  color: black;
+  border-radius: 10px;
+  height: 300px;
+  width: 400px;
+  margin: 20px;
+  background-color: lightgray;
 }
 
-.contact{
-   background-color: blanchedalmond;
-   height: 25vh;
+.project_title {
+  margin-top: 20%;
+  font-family: "Poppins", sans-serif;
 }
 
+.project_description {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  padding: 5px 30px;
+}
+
+.contact {
+  background-color: blanchedalmond;
+  height: 25vh;
+}
