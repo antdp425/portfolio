@@ -69,7 +69,16 @@ h2 {
 
 .project_title {
   margin-top: 10%;
+  margin-bottom: 10px;
   font-family: "Poppins", sans-serif;
+}
+
+.project_links{
+  text-align: center;
+}
+
+.project_links a{
+  text-decoration: none;
 }
 
 .project_description {
