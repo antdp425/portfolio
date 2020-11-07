@@ -3,9 +3,7 @@
 
 body {
   margin: 0;
-  background-color: black;
-  /* background-image: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700314818-1200x675.jpg"); */
-  background-size: cover;
+  background-image: linear-gradient( 135deg, #3B2667 10%, #BC78EC  100%);
 }
 
 h1, h2{
@@ -13,9 +11,9 @@ h1, h2{
 }
 
 .greeting {
-  margin-top: 30vh;
+  margin-top: 20vh;
   margin-bottom: 15vh;
-  height: auto
+  height: auto;
 }
 
 .name {
@@ -48,7 +46,8 @@ h1, h2{
 }
 
 .projects {
-  background-color: grey;
+  color: black;
+  background-color: #ffffffea;
   height: auto;
   padding: 30px;
   width: auto;
@@ -70,7 +69,7 @@ h1, h2{
   color: black;
   border-radius: 10px;
   height: auto;
-  width: 400px;
+  width: 425px;
   margin: 20px;
   padding-bottom: 10px;
   background-color: lightgray;
@@ -91,6 +90,10 @@ h1, h2{
 .project_links a{
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
+}
+
+.project_links a:visited{
+  color: blue;
 }
 
 .project_description {
