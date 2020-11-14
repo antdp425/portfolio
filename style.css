@@ -6,6 +6,21 @@ body {
   background-image: linear-gradient( 135deg, #3B2667 10%, #BC78EC  100%);
 }
 
+img{
+  height: 50px;
+  width: 50px;
+}
+
+svg#github{
+  background-color: white;
+}
+
+img#blog{
+  background-color: white;
+  height: 50px;
+  width: 50px;
+}
+
 h1, h2{
   text-align: center;
 }
@@ -37,6 +52,7 @@ h1, h2{
   font-size: 1.25rem;
   display: flex;
   justify-content: center;
+  margin-top: 10px;
 }
 
 .links a {
