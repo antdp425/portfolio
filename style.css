@@ -125,6 +125,26 @@ h1, h2{
   padding: 0px 30px;
 }
 
+.blogs {
+  color: white;
+  background-color: #494950ea;
+  height: auto;
+  padding: 30px;
+  width: auto;
+}
+
+#blog_title{
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.blog_cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
 svg {
   width: 50px;
   height: auto;
