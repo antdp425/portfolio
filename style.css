@@ -133,16 +133,44 @@ h1, h2{
   width: auto;
 }
 
-#blog_title{
+#blogs_title{
   font-family: "Poppins", sans-serif;
   text-align: center;
   font-size: 2rem;
 }
 
-.blog_cards {
+.blog_cards{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+
+.blog_card{
+  color: black;
+  height: auto;
+  border-radius: 10px;
+
+  width: 450px;
+  margin: 20px;
+  padding-bottom: 10px;
+  background-color: rgb(233, 233, 233);
+}
+
+.blog_card img{
+  object-fit: cover;
+  border-radius: 10px;
+
+  width: 100%;
+  height: auto;
+}
+
+.blog_title {
+  font-size: 1.5rem;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 svg {
