@@ -1,9 +1,9 @@
 let blogSection = document.querySelector(".blog_cards");
 
 fetch("https://dev.to/api/articles?username=antdp425&per_page=6")
-  .then((r) => r.json())
-  .then((r) => {
-    r.forEach((b) => (blogSection.innerHTML += createBlog(b)));
+  .then((response) => response.json())
+  .then((data) => {
+    data.forEach((blog) => (blogSection.innerHTML += createBlog(blog)));
   });
 
 function createBlog(blog) {
