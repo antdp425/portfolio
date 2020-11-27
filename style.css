@@ -186,3 +186,18 @@ svg {
   width: 50px;
   height: auto;
 }
+
+.more_blogs{
+  display: flex;
+  justify-content: center;
+}
+
+.more_blogs a{
+  background-color: black;
+  color: white;
+  height: auto;
+  padding: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+}
